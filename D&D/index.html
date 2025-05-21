@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Header with Menu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="img/icons/LOGO.png" alt="Logo" width="100" height="100" />
+      </a>
+    </div>      
+    <div class="menu">
+      <a href="#">Games</a>
+      <a href="#">News</a>
+      <a href="#">Videos</a>
+      <a href="#">Downloads</a>
+      <a href="#">Store</a>
+      <a href="#">Support</a>
+    </div>
+  </header>
+  <main>
+    <section class="slider-container">  
+      <div class="slider">
+        <div class="slide active">
+          <img src="img/games/EAFC25.jpg" alt="Game 1">
+        </div>
+        <div class="slide">
+          <img src="img/games/gta5.jpg" alt="Game 2">
+        </div>
+        <div class="slide">
+          <img src="img/games/RDR2.jpg" alt="Game 3">
+        </div>
+      </div>
+    </section>
+    <section class="game-list">
+      <ul>
+          <li data-slide="0">
+              <img src="img/games/EAFC25.jpg" class ="Game-click" alt="GTA V Icon">
+              EA SPORTS FC 25
+          </li>
+          <li data-slide="1">
+              <img src="img/games/gta5.jpg" class ="Game-click" alt="EA FC 25 Icon">
+              Grand Theft Auto V
+          </li>
+          <li data-slide="2">
+              <img src="img/games/RDR2.jpg" class ="Game-click" alt="RDR2 Icon">
+              Red Dead Redemption 2
+          </li>
+      </ul>
+  </section>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
